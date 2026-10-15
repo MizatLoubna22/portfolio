@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Port Folio </title>
+</head>
+<body>
+   <!-- === Header === -->
+    <header>
+        <h1>My Portfolio </h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- === About === -->
+     <section id="about" class="about">
+        <img id="img" src="images/profile-picture.png" alt="">
+        <h2>About me</h2>
+        <p>Hello, I'm a beginner web dev learning html css js .This is my Portfolio for Paractice</p>
+    
+    </section>
+
+    <!-- === Skills === -->
+     <section id="skills" >
+        <h2>My skills</h2>
+        <div class="skills">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+
+        </div>
+     </section>
+
+    <!-- === Projects === -->
+     <section id="projects">
+        <h2>My projects</h2>
+
+        <div class="projects">
+            <div class="project">
+                <img src="images/googleClone.png" alt="">
+                <h3>Project 1</h3>
+                <p style="margin-bottom:20px ;">This is my first clone</p>
+                <a target="_blank" href="test8.html" >Live</a >
+            </div>
+            <div class="project">
+                <img src="images/todolist.png" alt="">
+                <h3>Project 2</h3>
+                <p style="margin-bottom:20px ;">CRUD to do list page</p>
+                <a target="_blank" href="index - Copie.html">Live</a >
+            </div>
+        </div>
+
+     </section>
+
+    <!-- === Contact === -->
+     <section id="contact">
+        <h2>Contact Us </h2>
+        <form action="https://formspree.io/f/xzedygnr" method="POST">
+            <label>
+                Your email:
+                <input type="email" name="email">
+            </label>
+            <label>
+                Your message:
+                <textarea name="message"></textarea>
+            </label>
+            <!-- your other form fields go here -->
+            <button type="submit">Send</button>
+        </form>
+     </section>
+
+    <a id="btn" href="#img">Top</a>
+
+    <!-- === Footer === -->
+     <footer>
+        <p>&copy: 2026 my portfolio, all rights reserved</p>
+     </footer>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
